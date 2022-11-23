@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: burlywood;
+}
+.producto{
+    margin: auto;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.contacto{
+    color: white;
+    width: max-content;
+    margin: 5px;
+    background-color: rgba(44, 39, 39, 0.494);
+    border: 3px black solid;
+    width:  24%;
+    height: 56px;
+    text-align: center;
+    
+}
+
+.formulario{
+    height: 50px;
+    margin:20px 0px 20px 0px;
+    background-color: rgba(0, 0, 0, 0.612);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+form, input, select{
+    font-size: 1em;
+    
+}
+.form1{
+    
+    flex-grow: 1;
+    text-align: center;
+}
+
+.form2{
+    margin-right: 20px;
+    flex-grow: 1;
+    text-align: end;
+}
+#form {
+    border:1px solid #990000;
+    width:450px;
+    margin:auto;
+}
+#form legend{
+    font-weight:bold;
+    font-size:18px;
+}
+#form ol{
+    list-style:none;
+}
+#form ol li{
+    padding-bottom:5px;
+}
+#form ol li label{
+    width:120px;
+    float:left;
+    text-align:left;
+}
+#form input[type=text] {
+    border:1px solid #CCCCCC;
+}
+#form input.btn {
+    padding:3px;
+    margin: 10px;
+    color:#FFFFFF;
+    background-color:#990000;
+    border:1px solid #000000;
+}
